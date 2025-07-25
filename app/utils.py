@@ -65,9 +65,9 @@ def fetch_all_day_weather_data() -> List[Dict]:
         irradiance = item.get("short_rad", 0.0)  # ✅ Directly use 'short_rad' only
 
         all_day_data.append({
-            "temperature": temperature,
-            "humidity": humidity,
             "irradiance": irradiance,
+            "temperature": temperature,
+            "humidity": humidity, 
             "hr": hr,
             "datetime": dt_txt
         })
@@ -75,4 +75,3 @@ def fetch_all_day_weather_data() -> List[Dict]:
     return all_day_data
 
 
-fetch_weather_data()

@@ -2,6 +2,10 @@
 
     This model takes in features irradiance ,temperautre , the hour and humidity and predicts the energy that the solar panel would be able to produce in that particular hour.
 
+    To start In CMD :
+    venv\Scripts\activate
+
+
 <h2>Key Challenges faceed</h2>
     This model is trained on fictious data , these arent real solar panel output , we used a formula that would calulate the power of the solar panel in this formula we used the wattage 20W. That is the rating of our solar panel at perfect conditions.
 
@@ -11,4 +15,4 @@
 
 
 
-<b>That is abput it for now</b>
+<b>That is about it for now</b>
