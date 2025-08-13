@@ -30,7 +30,11 @@ pip install -r requirements.txt
 ```
 
 ---
+# run this in main directory:
+uvicorn app.main:app --reload
 
+# to view ui format :
+http://127.0.0.1:8000/docs
 ## ⚠️ Key Challenges Faced
 
 - The model is trained on **synthetic (fictitious)** data. Real solar panel output was not available.
